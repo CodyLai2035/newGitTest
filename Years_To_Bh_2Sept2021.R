@@ -6,6 +6,8 @@ library(xlsx)
 
 rm(list=ls())
 
+# This is to show that the forking process works ! 
+
 #1.  Attaching Old Growth Scores with Coordinate----
 dbDisconnect(con)
 drv <- dbDriver("PostgreSQL")
